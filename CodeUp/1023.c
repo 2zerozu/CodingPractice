@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char s[2001] = "NULL";
-    fgets(s, 2000, stdin);
-    printf("%s", s);
+    int a, b;
+    scanf("%d.%d", &a, &b);
+    printf("%d\n%d", a, b);
     return 0;
 }
